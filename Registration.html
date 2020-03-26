@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>LBSIMDS-Official site</title>
+<link rel="stylesheet" href="css\bootstrap.min.css"/>
+
+<script src="js\bootstrap.min.js"></script>
+<style>
+ .img
+ {
+ 	background-image: url(lbsimds.jpg); 
+ 	background-repeat: no-repeat;
+ 	magin:auto;
+background-size: cover;
+
+
+
+ }
+  </style>
+
+</head>
+<body>
+	<div class="jumbotron text-center img" style="margin-bottom:0;">
+  <h1 Style="color:#ff3333"><B><font face='arial round'; size='30'>LAL BAHADUR SASHTRI INSTITUTE OF MANAGEMENT AND DEVELOPMENT STUDIES</font></B></h1>
+  <p style="color:navy"><b><font size="10">.MCA .MBA</font></b></p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <a class="navbar-brand" href="home.HTML">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Login.html">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Gallery.html">Gallery</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact Us</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+
+  <h1 class="text-center"><u>Application Form</u></h1>
+  <br>
+
+    <div class="row">
+    <div class="col-md-7">
+  <form style="margin: 50px">
+        Candidate Name:
+  <div class="form-row">
+
+    <div class="col">
+     <input type="text" class="form-control" placeholder="Enter First Name" name="fn">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Enter Middle Name" name="mn">
+    </div>
+     <div class="col">
+      <input type="text" class="form-control" placeholder="Enter Last Name" name="ln">
+    </div>
+  </div>
+  <br>
+  Parents Name:
+    <div class="form-row">
+
+   <div class="col">
+      <input type="text" class="form-control" placeholder="Enter Father's Name" name="fsn">
+    </div>
+       <div class="col">
+      <input type="text" class="form-control" placeholder="Enter Mother's Name" name="msn">
+    </div>
+  </div>
+  <br>
+  <div class="form-row">
+
+   <div class="col">
+      Date of Birth:<input type="date" class="form-control" name="dob">
+    </div>
+    <div class="col">
+     &nbsp;Gender:
+
+     <div class='row'>
+  &nbsp;&nbsp;<div class="form-check">
+      <label class="form-check-label">
+&nbsp;
+   <input type="radio" class="form-check-input" name="optradio">Female
+  </label>
+</div>
+<div class="form-check ">
+  <label class="form-check-label">&nbsp;
+    <input type="radio" class="form-check-input" name="optradio">Male
+  </label>
+</div>
+</div>
+    </div>
+
+    <div class="col" >
+          Religion:
+          <br>
+     <select name="Religion">
+
+
+      <option>Hindu</option>
+      <option>Muslim</option>
+      <option>Christian</option>
+      <option>Buddhism</option>
+    </select>
+  </div>
+
+</div>
+ <br>
+  Addresses:
+    <div class="form-row">
+ <div class="col">
+      <TextArea class="form-control" placeholder="Current Address" name="add1"></TextArea>
+
+    </div>
+    <div class="col">
+      <TextArea class="form-control" placeholder="Permanent Address" name="add2"></TextArea>
+
+    </div>
+ 
+  </div>
+  
+<br>
+Contact:
+    <div class="form-row">
+
+    <div class="col">
+      <input type="Number" class="form-control" placeholder="Contact Number" name="cn">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+  </div>
+   <br>
+   Graduation:
+    <div class="form-row">
+
+    <div class="col">
+      <input type="text" class="form-control" placeholder="College Name" name="CN1">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Course" name="c">
+    </div>
+    <div class="col">
+      <input type="Number" class="form-control" placeholder="Percentage" name="p">
+    </div>
+
+</div>
+ <br>
+   Interested In:
+    <div class="form-row">
+
+    <div class="col">
+     <Select name="Course">
+       <option>MCA </option>
+              <option>MBA </option>   
+   
+         </Select>
+
+    </div>
+    <div class="col">
+     <Select name="type">
+       <option>Lateral</option>
+              <option>Non-Lateral</option>   
+   
+         </Select>
+
+    </div>
+    <div class="col">
+      <Select name="type2">
+       <option>Regular</option>
+              <option>Irregular</option>   
+   
+         </Select>
+    </div>
+
+</div>
+ <br>
+   Identity:
+    <div class="form-row">
+
+    <div class="col">Photograph
+    <input type="file" placeholder="Photgraph"/>
+     </div>
+    <div class="col">Signature:
+     <input type="file" placeholder="Signature"/>
+    </div>
+    <div class="col">Id proof:<br>
+     <input type="text" placeholder="Adhar Card Number">
+    </div>
+
+</div>
+<br>
+<div class="form-row">
+
+    <div class="col">
+    <button type="button" class="btn-info btn-group-lg btn-lg rounded">Submit</button>
+     </div>
+    <div class="col">
+     <button type="button" class="btn-danger btn-group-lg btn-lg rounded">Reset</button>
+    </div>
+    </div>
+</form>  
+</div> 
+<div class="col-md-3" style="margin-left: 20px;  height:200px; width:100px">
+  <img src="registration1.jpg" class="img-fluid" style=" height:400px; width:900px" />
+</div>
+</div>
+
+<br>   <footer class="bg-dark">
+  <div class="col-6">
+<ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="Aboutus.html">About Us</a>
+      </li></ul>
+      <div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Map</a>
+      </li>
+</ul>
+<br><br>
+  
+   
+</div>
+</div>
+ 
+
+
+ <h6 class='text-center' style="color:white"> Developed by Divyanshi Maurya</h6>
+
+
+
+
+</footer>
+
+ </body>
+</html>	
